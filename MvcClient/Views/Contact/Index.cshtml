@@ -1,0 +1,104 @@
+﻿@*@model IEnumerable<MvcClient.Models.Contact>*@
+@using PagedList.Mvc;
+@using PagedList;
+@model IPagedList<MvcClient.Models.Contact>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="text-primary">Contact Details</h3>
+
+<p>
+    @using (@Html.BeginForm("Index", "Contact", FormMethod.Get))
+    {
+        <b style="margin: 10px 10px 10px 10px">Search By :</b>
+        @Html.RadioButton("searchBy", "FirstName", true) <span style="margin: 10px 10px 10px 10px">FirstName</span>
+        @Html.RadioButton("searchBy", "PhoneNo") <span style="margin: 10px 10px 10px 10px">PhoneNo</span><br />
+        @Html.TextBox("search", null, new { @class = "col-sm-6" })
+        <input type="submit" value="search" class=" btn btn-info bg bg-info" style="margin: 10px 10px 10px 10px" />
+       
+    }
+</p>
+<table class="table container">
+    <tr class="active">
+        <th>
+            @Html.ActionLink("FirstName", "Index", new { sortBy = ViewBag.FirstName, searchBy = Request["searchBy"], search = Request["search"] })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Email)
+        </th>
+
+        <th>
+            @Html.ActionLink("PhoneNo", "Index", new { sortBy = ViewBag.PhoneNo, searchBy = Request["searchBy"], search = Request["search"] })
+        </th>
+
+        <th>Action</th>
+    </tr>
+
+
+
+    @if (Model.Count() == 0)
+    {
+        <tr>
+            <td colspan="4">No records match search criteria
+            </td>
+        </tr>
+    }
+    else
+    {
+        foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+
+            <td>
+                <a href="@Url.Action("AddOrEdit", "Contact", new { id = item.Id })" class="btn btn-default"><i class="fa fa-pencil"></i>Edit</a> |
+             
+                <a href="@Url.Action("Delete", "Contact", new { id = item.Id })" class="btn btn-default"><i class="fa fa-pencil"></i>Delete</a>
+            </td>
+
+        </tr>
+        }
+    }
+
+</table>
+
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["search"], sortBy = Request["sortBy"] }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DelimiterBetweenPageNumbers = "|", DisplayEllipsesWhenNotShowingAllPageNumbers = true, DisplayPageCountAndCurrentLocation = true })
+
+
+@*<script>
+    $(function () {
+        $('#btnSearch').click(function () {
+
+            var searchBy = $('#searchBy').val();
+            var searchText = $('#txtSearch').val();
+
+            var getUrl = 'contact/index/?searchBy=' + searchBy + '&search=' + searchText;
+
+            $.ajax({
+                url: getUrl,
+                type: 'GET',
+                success: function (result) { },
+                error: function () { }
+            });
+
+        });
+    })
+</script>*@

@@ -1,0 +1,90 @@
+E:\Class Work\MvcApplication1\MvcClient\bin\MvcClient.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\MvcClient.pdb
+E:\Class Work\MvcApplication1\MvcClient\bin\Microsoft.Web.Infrastructure.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\Newtonsoft.Json.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Net.Http.Formatting.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Helpers.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Http.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Http.WebHost.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Mvc.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Razor.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.WebPages.Deployment.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.WebPages.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.WebPages.Razor.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\Newtonsoft.Json.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Net.Http.Formatting.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Helpers.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Http.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Http.WebHost.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Mvc.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.Razor.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.WebPages.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.WebPages.Deployment.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\System.Web.WebPages.Razor.xml
+E:\Class Work\MvcApplication1\MvcClient\obj\Debug\MvcClient.csprojResolveAssemblyReference.cache
+E:\Class Work\MvcApplication1\MvcClient\obj\Debug\MvcClient.dll
+E:\Class Work\MvcApplication1\MvcClient\obj\Debug\MvcClient.pdb
+E:\Class Work\MvcApplication1\MvcClient\bin\PagedList.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\PagedList.Mvc.dll
+E:\Class Work\MvcApplication1\MvcClient\bin\PagedList.xml
+E:\Class Work\MvcApplication1\MvcClient\bin\PagedList.Mvc.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\MvcClient.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\MvcClient.pdb
+C:\AssignmentAniketShilimkar\MvcClient\bin\Microsoft.Web.Infrastructure.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\Newtonsoft.Json.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.Mvc.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Net.Http.Formatting.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Helpers.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.WebHost.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Mvc.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Razor.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Deployment.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Razor.dll
+C:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.Mvc.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\Newtonsoft.Json.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Net.Http.Formatting.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Helpers.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.WebHost.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Mvc.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Razor.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Deployment.xml
+C:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Razor.xml
+C:\AssignmentAniketShilimkar\MvcClient\obj\Debug\MvcClient.csprojResolveAssemblyReference.cache
+C:\AssignmentAniketShilimkar\MvcClient\obj\Debug\MvcClient.dll
+C:\AssignmentAniketShilimkar\MvcClient\obj\Debug\MvcClient.pdb
+I:\AssignmentAniketShilimkar\MvcClient\bin\MvcClient.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\MvcClient.pdb
+I:\AssignmentAniketShilimkar\MvcClient\bin\Microsoft.Web.Infrastructure.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\Newtonsoft.Json.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.Mvc.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Net.Http.Formatting.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Helpers.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.WebHost.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Mvc.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Razor.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Deployment.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Razor.dll
+I:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\PagedList.Mvc.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\Newtonsoft.Json.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Net.Http.Formatting.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Helpers.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Http.WebHost.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Mvc.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.Razor.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Deployment.xml
+I:\AssignmentAniketShilimkar\MvcClient\bin\System.Web.WebPages.Razor.xml
+I:\AssignmentAniketShilimkar\MvcClient\obj\Debug\MvcClient.csprojResolveAssemblyReference.cache
+I:\AssignmentAniketShilimkar\MvcClient\obj\Debug\MvcClient.dll
+I:\AssignmentAniketShilimkar\MvcClient\obj\Debug\MvcClient.pdb

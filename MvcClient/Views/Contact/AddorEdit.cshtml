@@ -1,0 +1,65 @@
+﻿@model MvcClient.Models.Contact
+
+@{
+    ViewBag.Title = "AddorEdit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-primary">Contact
+</h1>
+@using (Html.BeginForm("AddOrEdit", "Contact", FormMethod.Post, new { @class = "form" }))
+{ 
+    <div>
+        <div class="row">
+            <div class="col-md-3">@Html.LabelFor(model => model.FirstName)</div>
+            <div class="col-md-9">@Html.EditorFor(model => model.FirstName, null, new { @class = "form-control" })
+                                  @Html.ValidationMessageFor(model => model.FirstName, "", new {@class="text-danger" })
+            </div>
+            
+
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.LabelFor(model => model.LastName)</div>
+            <div class="col-md-9">@Html.EditorFor(model => model.LastName)
+                @Html.ValidationMessageFor(model => model.LastName,"", new {@class="text-danger" })
+            </div>
+            
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.LabelFor(model => model.Email)</div>
+            <div class="col-md-9">@Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email,"", new {@class="text-danger" })
+            </div>
+           
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.LabelFor(model => model.PhoneNo)</div>
+            <div class="col-md-9">@Html.EditorFor(model => model.PhoneNo)
+                @Html.ValidationMessageFor(model => model.PhoneNo, "", new {@class="text-danger" })
+            </div>
+            
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.LabelFor(model => model.ContactStatus)</div>
+            <div class="col-md-9">@Html.EditorFor(model => model.ContactStatus)
+                @Html.ValidationMessageFor(model => model.ContactStatus)
+            </div>
+            
+        </div>
+        <br />
+        <div class="row text-center">
+
+            <input type="submit" value="Submit" class="btn btn-info" style="padding: 10px 10px 10px 10px; margin: 10px 10px 10px 10px" />
+            @*<input type="reset" value="Reset" class="btn btn-info" onclick="clear()" style="padding:10px 10px 10px 10px;margin:10px 10px 10px 10px" />*@
+            <a href="@Url.Action("Index", "Contact")" class="btn btn-info" style="padding:10px 10px 10px 10px;margin:10px 10px 10px 10px">Back</a>
+
+
+        </div>
+    </div>
+}
+
+

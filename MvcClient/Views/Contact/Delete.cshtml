@@ -1,0 +1,62 @@
+﻿@model MvcClient.Models.Contact
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Are you sure do you want to Delete</h2>
+@using (Html.BeginForm())
+{ 
+    <div>
+        <div class="row">
+            <div class="col-md-3">@Html.DisplayNameFor(model => model.FirstName)</div>
+            <div class="col-md-5">@Html.DisplayFor(model => model.FirstName)
+                @Html.ValidationMessageFor(model => model.FirstName)
+            </div>
+            <div class="col-md-4"></div>
+
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.DisplayNameFor(model => model.LastName)</div>
+            <div class="col-md-5">@Html.DisplayFor(model => model.LastName)
+                @Html.ValidationMessageFor(model => model.LastName)
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.DisplayNameFor(model => model.Email)</div>
+            <div class="col-md-5">@Html.DisplayFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.DisplayNameFor(model => model.PhoneNo)</div>
+            <div class="col-md-5">@Html.DisplayFor(model => model.PhoneNo)
+                @Html.ValidationMessageFor(model => model.PhoneNo)
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">@Html.DisplayNameFor(model => model.ContactStatus)</div>
+            <div class="col-md-5">@Html.DisplayFor(model => model.ContactStatus)
+                @Html.ValidationMessageFor(model => model.ContactStatus)
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br />
+        <div class="row text-center">
+
+            <input type="submit" value="Delete" class="btn btn-info" style="padding: 10px 10px 10px 10px; margin: 10px 10px 10px 10px" />
+            <a href="@Url.Action("Index", "Contact")" class="btn btn-info" style="padding:10px 10px 10px 10px;margin:10px 10px 10px 10px">Back</a>
+
+
+        </div>
+    </div>
+}
+

@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Details</title>    
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+   
+
+</head>
+<body>
+    <div class="container" style="border: 1px solid black; box-shadow: 5px 5px 5px gray;">
+        <div class="row">
+            <div class="col-md-2">
+                <img alt="Contact" src="~/Image/contact.png" style="height: 100px; width: 100%" />
+            </div>
+            <div class="col-md-10">
+                <h1 class="container">Contact Managment System</h1>
+            </div>
+        </div>
+        <hr />
+
+        <div class="row">
+            <div class="col-md-2" style="padding-top: 200px; border-right: 1px solid gray;">
+                @Html.ActionLink("Add Contact", "AddOrEdit", "Contact", null, new { @class = "bg-default" })
+                <br />
+                @Html.ActionLink("Home ", "Index", "Contact", null, new { @class = "bg-default" })
+            </div>
+            <div class="col-md-10">
+                @RenderBody()
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="text-center">
+                <h6>Reserved Copyrights 2018</h6>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
